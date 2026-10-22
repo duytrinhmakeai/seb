@@ -6,8 +6,7 @@ MakeAI SEB giúp mở bài thi trong môi trường được kiểm soát, hạn
 trong thời gian làm bài. MakeAI SEB được phát triển dựa trên nền tảng [Safe Exam Browser](https://safeexambrowser.org) (SEB)
 và được tùy chỉnh cho hệ thống thi của MakeAI.
 
-Phiên bản mới nhất: **1.0.3** · [Tất cả bản phát hành](https://github.com/duytrinhmakeai/seb/releases) ·
-Trang tải chính thức: https://makeai.edu.vn/makeaiseb/
+Phiên bản mới nhất: **1.0.3** · Trang tải chính thức: https://github.com/duytrinhmakeai/seb/releases
 
 ---
 
