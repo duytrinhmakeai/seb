@@ -5,7 +5,7 @@ bài thi và, nếu kỳ thi yêu cầu, giám sát màn hình và webcam qua Ma
 
 ## Tải về
 
-Xem mục [Releases](https://github.com/duytrinhmakeai/seb/releases). Mỗi phiên bản có 2 bộ cài (từ 1.0.3):
+Xem mục [Releases](https://github.com/duytrinhmakeai/seb/releases). Có 2 bộ cài:
 
 | Tệp | Dành cho |
 |---|---|
