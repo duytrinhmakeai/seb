@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="branding/icon-app.png" alt="MakeAI SEB" width="128" height="128">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="branding/makeai-seb-logo-dark.png">
+    <img src="branding/makeai-seb-logo.png" alt="MakeAI SEB – Trình duyệt thi an toàn" width="420">
+  </picture>
 </p>
 
 <h1 align="center">MakeAI SEB</h1>
@@ -142,8 +145,13 @@ Công cụ của bộ Full:
 ## Bộ nhận diện
 
 <p align="center">
-  <img src="branding/makeai-seb-logo.png" alt="Logo MakeAI" width="240">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="branding/makeai-seb-logo-dark.png">
+    <img src="branding/makeai-seb-logo.png" alt="Logo MakeAI SEB" width="360">
+  </picture>
 </p>
+
+Logo MakeAI SEB: `makeai-seb-logo.png` (nền sáng) và `makeai-seb-logo-dark.png` (nền tối, chữ trắng).
 
 | <img src="branding/icon-app.png" width="96" alt=""> | <img src="branding/icon-config-tool.png" width="96" alt=""> | <img src="branding/icon-reset-utility.png" width="96" alt=""> | <img src="branding/icon-seb-file.png" width="96" alt=""> |
 |:---:|:---:|:---:|:---:|
