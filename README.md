@@ -3,7 +3,7 @@
 **Ứng dụng trình duyệt thi an toàn dành cho các bài kiểm tra trên [MakeAI](https://edu.makeai.vn).**
 
 MakeAI SEB giúp mở bài thi trong môi trường được kiểm soát, hạn chế truy cập các ứng dụng và tài nguyên không được phép
-trong thời gian làm bài. MakeAI SEB được phát triển dựa trên nền tảng [Safe Exam Browser](https://safeexambrowser.org) (SEB)
+trong thời gian làm bài. MakeAI SEB được phát triển dựa trên nền tảng Safe Exam Browser (SEB)
 và được tùy chỉnh cho hệ thống thi của MakeAI.
 
 Phiên bản mới nhất: **1.0.3** · Trang tải chính thức: https://github.com/duytrinhmakeai/seb/releases
@@ -19,12 +19,13 @@ Chọn bộ cài đặt Windows phù hợp:
 | **MakeAI SEB** | Máy thi của sinh viên: chỉ có ứng dụng thi | [setup.zip (196 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x64-setup.zip) · [.msi (197 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x64.msi) |
 | **MakeAI SEB Full** | Giáo viên, kỹ thuật viên: thêm công cụ cấu hình và công cụ khôi phục | [setup.zip (197 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x64-Full-setup.zip) · [.msi (198 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x64-Full.msi) |
 
-Tài liệu đi kèm: [Hướng dẫn cài đặt](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/HUONG-DAN-CAI-DAT.txt) ·
-[Hướng dẫn cài đặt (bản Full)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/HUONG-DAN-CAI-DAT-Full.txt) ·
+Tài liệu: **[Hướng dẫn cài đặt chi tiết](https://github.com/duytrinhmakeai/seb/blob/main/HUONG-DAN-CAI-DAT.md)** ·
 [Thay đổi trong phiên bản](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/THAY-DOI.txt) ·
 [SHA256SUMS.txt](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/SHA256SUMS.txt)
 
 ## 02 · Cài đặt
+
+Xem đầy đủ trong [Hướng dẫn cài đặt](https://github.com/duytrinhmakeai/seb/blob/main/HUONG-DAN-CAI-DAT.md).
 
 1. Tải file `.msi`, hoặc tải file `.zip` rồi giải nén.
 2. Mở file `MakeAISEB-1.0.3.0-x64.msi` (hoặc `MakeAISEB-1.0.3.0-x64-Full.msi`).
