@@ -1,6 +1,23 @@
-# MakeAI SEB
+<p align="center">
+  <img src="branding/icon-app.png" alt="MakeAI SEB" width="128" height="128">
+</p>
 
-**Ứng dụng trình duyệt thi an toàn dành cho các bài kiểm tra trên [MakeAI](https://edu.makeai.vn).**
+<h1 align="center">MakeAI SEB</h1>
+
+<p align="center">
+  <b>Ứng dụng trình duyệt thi an toàn dành cho các bài kiểm tra trên <a href="https://edu.makeai.vn">MakeAI</a>.</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/duytrinhmakeai/seb/releases/latest"><img alt="Phiên bản" src="https://img.shields.io/github/v/release/duytrinhmakeai/seb?label=phi%C3%AAn%20b%E1%BA%A3n&color=1a8cff"></a>
+  <img alt="Windows 10/11 64-bit" src="https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-0a6cd6">
+  <a href="https://github.com/duytrinhmakeai/seb/releases"><img alt="Lượt tải" src="https://img.shields.io/github/downloads/duytrinhmakeai/seb/total?label=l%C6%B0%E1%BB%A3t%20t%E1%BA%A3i&color=22a6f2"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x64-setup.zip"><b>⬇ Tải MakeAI SEB 1.0.3</b></a> (máy thi) ·
+  <a href="https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x64-Full-setup.zip">Bản Full</a> (giáo viên, kỹ thuật viên)
+</p>
 
 MakeAI SEB giúp mở bài thi trong môi trường được kiểm soát, hạn chế truy cập các ứng dụng và tài nguyên không được phép
 trong thời gian làm bài. MakeAI SEB được phát triển dựa trên nền tảng Safe Exam Browser (SEB) và được tùy chỉnh cho hệ
@@ -10,7 +27,7 @@ Phiên bản mới nhất: **1.0.3** · Trang tải chính thức: https://githu
 
 **Mục lục:** [Tải ứng dụng](#01--tải-ứng-dụng) · [Yêu cầu máy tính](#yêu-cầu-máy-tính) · [Cài đặt](#02--cài-đặt) ·
 [Bắt đầu bài thi](#03--bắt-đầu-bài-thi) · [Khi gặp sự cố](#khi-gặp-sự-cố) · [Gỡ cài đặt](#gỡ-cài-đặt) ·
-[Kiểm tra toàn vẹn](#kiểm-tra-toàn-vẹn-sha-256)
+[Kiểm tra toàn vẹn](#kiểm-tra-toàn-vẹn-sha-256) · [Bộ nhận diện](#bộ-nhận-diện)
 
 ---
 
@@ -121,6 +138,18 @@ Công cụ của bộ Full:
 | `MakeAISEB-1.0.3.0-x64.msi` | `f7f0ad4afa4bd3269ee84425ca5862c902c2b6e26822f640e2f5be4356df0e78` |
 | `MakeAISEB-1.0.3.0-x64-Full-setup.zip` | `b28e6deff2e8e7b334789e4fac27eddcb43a4aee3117ea22a71e4c6128023a06` |
 | `MakeAISEB-1.0.3.0-x64-Full.msi` | `dc65d17c63a337794b60657be2b1cdd9292bcaa20b9477a866865c4121d95259` |
+
+## Bộ nhận diện
+
+<p align="center">
+  <img src="branding/makeai-seb-logo.png" alt="Logo MakeAI" width="240">
+</p>
+
+| <img src="branding/icon-app.png" width="96" alt=""> | <img src="branding/icon-config-tool.png" width="96" alt=""> | <img src="branding/icon-reset-utility.png" width="96" alt=""> | <img src="branding/icon-seb-file.png" width="96" alt=""> |
+|:---:|:---:|:---:|:---:|
+| MakeAI SEB | Configuration Tool | Reset Utility | File cấu hình `.seb` |
+
+Các tệp ảnh (PNG nền trong suốt) nằm trong thư mục [`branding/`](branding).
 
 ---
 
