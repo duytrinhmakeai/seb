@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://github.com/duytrinhmakeai/seb/releases/latest"><img alt="Phiên bản" src="https://img.shields.io/github/v/release/duytrinhmakeai/seb?label=phi%C3%AAn%20b%E1%BA%A3n&color=1a8cff"></a>
-  <img alt="Windows 10/11 64-bit" src="https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)-0a6cd6">
+  <img alt="Windows 10/11 64-bit, Windows 10 32-bit" src="https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)%20%C2%B7%2010%20(32--bit)-0a6cd6">
   <a href="https://github.com/duytrinhmakeai/seb/releases"><img alt="Lượt tải" src="https://img.shields.io/github/downloads/duytrinhmakeai/seb/total?label=l%C6%B0%E1%BB%A3t%20t%E1%BA%A3i&color=22a6f2"></a>
 </p>
 
@@ -43,14 +43,23 @@ Chọn bộ cài đặt Windows phù hợp:
 | **MakeAI SEB** | Máy thi của sinh viên: chỉ có ứng dụng thi | [setup.zip (196 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x64-setup.zip) · [.msi (197 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x64.msi) |
 | **MakeAI SEB Full** | Giáo viên, kỹ thuật viên: thêm công cụ cấu hình và công cụ khôi phục | [setup.zip (197 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x64-Full-setup.zip) · [.msi (198 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x64-Full.msi) |
 
+**Máy Windows 10 32-bit** (thử nghiệm): dùng bộ cài x86 dưới đây. Mọi máy Windows 64-bit và Windows 11 dùng bộ cài ở bảng trên.
+Xem loại máy: **Settings** → **System** → **About** → **System type** ("32-bit operating system" là máy 32-bit).
+
+| Bộ cài (32-bit) | Dành cho | Tải về |
+|---|---|---|
+| **MakeAI SEB (x86)** | Máy thi chạy Windows 10 32-bit | [setup.zip (174 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86-setup.zip) · [.msi (175 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86.msi) |
+| **MakeAI SEB Full (x86)** | Giáo viên, kỹ thuật viên dùng máy 32-bit | [setup.zip (175 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86-Full-setup.zip) · [.msi (176 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86-Full.msi) |
+
 Chỉ cần tải **một** trong hai dạng: `.msi` (chạy trực tiếp) hoặc `setup.zip` (giải nén ra được file `.msi`).
 [Thay đổi trong phiên bản](https://github.com/duytrinhmakeai/seb/releases/tag/v1.0.3) ·
 [SHA256SUMS.txt](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/SHA256SUMS.txt)
 
 ### Yêu cầu máy tính
 
-- Windows 10 phiên bản 1903 trở lên hoặc Windows 11, 64-bit.
-- [Microsoft Visual C++ Redistributable 2015–2022 (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe): nếu máy chưa có, tải và cài trước.
+- Windows 10 phiên bản 1903 trở lên hoặc Windows 11, 64-bit (bộ cài x64); hoặc Windows 10 phiên bản 1903 trở lên, 32-bit (bộ cài x86).
+- Microsoft Visual C++ Redistributable 2015–2022 đúng loại máy, nếu máy chưa có thì tải và cài trước:
+  [bản x64](https://aka.ms/vs/17/release/vc_redist.x64.exe) cho máy 64-bit · [bản x86](https://aka.ms/vs/17/release/vc_redist.x86.exe) cho máy 32-bit.
 - Webcam nếu kỳ thi yêu cầu giám sát camera.
 - Chỉ 1 màn hình: rút màn hình phụ hoặc máy chiếu trước khi thi.
 
@@ -73,7 +82,7 @@ Cài xong, trong Start Menu sẽ có:
 > Bộ cài hiện chưa được ký số, cảnh báo này là bình thường.
 
 - Cài bản mới đè lên bản cũ sẽ tự nâng cấp, không cần gỡ trước. Cài bộ thường đè lên bộ Full (hoặc ngược lại) sẽ tự thay thế.
-- Cài hàng loạt (quản trị mạng, quyền Administrator): `msiexec /i MakeAISEB-1.0.3.0-x64.msi /qn`
+- Cài hàng loạt (quản trị mạng, quyền Administrator): `msiexec /i MakeAISEB-1.0.3.0-x64.msi /qn` (máy 32-bit: `MakeAISEB-1.0.3.0-x86.msi`)
 
 ## 03 · Bắt đầu bài thi
 
@@ -128,7 +137,7 @@ Công cụ của bộ Full:
 
 ## Gỡ cài đặt
 
-**Settings** → **Apps** → **Installed apps** → **MakeAI SEB (x64)** hoặc **MakeAI SEB Full (x64)** → **Uninstall**.
+**Settings** → **Apps** → **Installed apps** → **MakeAI SEB (x64)** hoặc **MakeAI SEB Full (x64)** (máy 32-bit: **(x86)**) → **Uninstall**.
 
 ## Kiểm tra toàn vẹn (SHA-256)
 
@@ -141,6 +150,10 @@ Công cụ của bộ Full:
 | `MakeAISEB-1.0.3.0-x64.msi` | `f7f0ad4afa4bd3269ee84425ca5862c902c2b6e26822f640e2f5be4356df0e78` |
 | `MakeAISEB-1.0.3.0-x64-Full-setup.zip` | `b28e6deff2e8e7b334789e4fac27eddcb43a4aee3117ea22a71e4c6128023a06` |
 | `MakeAISEB-1.0.3.0-x64-Full.msi` | `dc65d17c63a337794b60657be2b1cdd9292bcaa20b9477a866865c4121d95259` |
+| `MakeAISEB-1.0.3.0-x86-setup.zip` | `c451a7343998c53b0ed6c10df26d9694f067ff494e8768bde7261abe56e4f566` |
+| `MakeAISEB-1.0.3.0-x86.msi` | `1e7affac06b434897f320411adfc7267e51f4c5058c1ec0da9a070059b5c7586` |
+| `MakeAISEB-1.0.3.0-x86-Full-setup.zip` | `1de8d13c3269426586675ad1f3b03f14d42ea4e1ce6853694890e85fc356e859` |
+| `MakeAISEB-1.0.3.0-x86-Full.msi` | `97995c5bddfae80075c21d927d9659f258140992a1c1f44646eac167f50b55fa` |
 
 ## Bộ nhận diện
 
