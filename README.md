@@ -53,7 +53,7 @@ Xem loại máy: **Settings** → **System** → **About** → **System type** (
 | **MakeAI SEB Full (x86)** | Giáo viên, kỹ thuật viên dùng máy 32-bit | [setup.zip (175 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86-Full-setup.zip) · [.msi (176 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86-Full.msi) |
 
 **Máy Mac** (thử nghiệm; đã ký số và được Apple công chứng): [MakeAISEB-1.0.3-mac.dmg (38 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3-mac.dmg) · macOS 10.15 trở lên, máy Intel và Apple Silicon (M1/M2/M3…).
-Mở file .dmg, kéo **MakeAI SEB** vào **Applications**. Cấp quyền **Accessibility**, **Screen Recording**, **Camera** và **Full Disk Access** khi được hỏi. Hướng dẫn chi tiết có trong file `HUONG-DAN-CAI-DAT.txt` bên trong .dmg.
+Cách cài: xem mục [Máy Mac](#máy-mac) bên dưới (hướng dẫn chi tiết cũng có trong file `HUONG-DAN-CAI-DAT.txt` bên trong .dmg).
 
 Chỉ cần tải **một** trong hai dạng: `.msi` (chạy trực tiếp) hoặc `setup.zip` (giải nén ra được file `.msi`).
 [Thay đổi trong phiên bản](https://github.com/duytrinhmakeai/seb/releases/tag/v1.0.3) ·
@@ -88,6 +88,21 @@ Cài xong, trong Start Menu sẽ có:
 
 - Cài bản mới đè lên bản cũ sẽ tự nâng cấp, không cần gỡ trước. Cài bộ thường đè lên bộ Full (hoặc ngược lại) sẽ tự thay thế.
 - Cài hàng loạt (quản trị mạng, quyền Administrator): `msiexec /i MakeAISEB-1.0.3.0-x64.msi /qn` (máy 32-bit: `MakeAISEB-1.0.3.0-x86.msi`)
+
+### Máy Mac
+
+1. Mở file `MakeAISEB-1.0.3-mac.dmg`, kéo **MakeAI SEB** vào thư mục **Applications**.
+2. Mở **MakeAI SEB** từ Applications. Ứng dụng đã được ký số và Apple công chứng: macOS chỉ hỏi xác nhận mở ứng dụng
+   tải từ Internet, chọn **Open**.
+3. Khi được hỏi, bật quyền cho MakeAI SEB trong **System Settings** → **Privacy & Security**: **Accessibility**,
+   **Screen Recording** (giám sát màn hình), **Camera** (nếu kỳ thi giám sát camera) và **Full Disk Access**.
+   Sau khi bật Screen Recording, chọn **Quit & Reopen**.
+4. Mở MakeAI SEB khi chưa có file cấu hình sẽ thấy trang **"MakeAI SEB chưa được cấu hình"**: đây là bình thường.
+   Thoát ra rồi nhấp đúp file `.seb` của bài thi.
+
+- Gõ tiếng Việt: nên dùng bộ gõ Vietnamese có sẵn của macOS (Telex/VNI; thêm ở **System Settings** → **Keyboard** →
+  **Input Sources**). GoTiengViet, EVKey, OpenKey cũng được phép chạy: mở bộ gõ trước khi vào bài thi.
+- Bài thi trên Moodle: sau khi đăng nhập bấm **Làm bài**; không bấm lại **Download configuration** khi đang ở trong MakeAI SEB.
 
 ## 03 · Bắt đầu bài thi
 
@@ -139,15 +154,19 @@ Công cụ của bộ Full:
 | Báo lỗi "dịch vụ MakeAI SEB không chạy" | Cài lại bằng file `.msi`. |
 | Báo lỗi màn hình | Rút màn hình phụ, tắt chế độ mở rộng (**Win + P** → **PC screen only**). |
 | Cần gửi nhật ký lỗi cho bộ phận hỗ trợ | Nén thư mục `%LocalAppData%\SafeExamBrowser\Logs` (gõ đường dẫn này vào thanh địa chỉ của File Explorer). |
+| Máy Mac: cần gửi nhật ký lỗi | Finder → **Go** → **Go to Folder…** → `~/Library/Logs/MakeAI SEB`, nén thư mục này rồi gửi. |
+| Máy Mac: MakeAI SEB yêu cầu cấp quyền hoặc tắt ứng dụng khác | Bật quyền trong **System Settings** → **Privacy & Security**; tắt ứng dụng điều khiển từ xa, chat, quay màn hình rồi mở lại file `.seb`. |
 
 ## Gỡ cài đặt
 
 **Settings** → **Apps** → **Installed apps** → **MakeAI SEB (x64)** hoặc **MakeAI SEB Full (x64)** (máy 32-bit: **(x86)**) → **Uninstall**.
 
+Máy Mac: kéo **MakeAI SEB** trong thư mục **Applications** vào Thùng rác.
+
 ## Kiểm tra toàn vẹn (SHA-256)
 
 Đối chiếu mã dưới đây sau khi tải file để kiểm tra file không bị thay đổi
-(PowerShell: `Get-FileHash .\<tên file> -Algorithm SHA256`).
+(PowerShell: `Get-FileHash .\<tên file> -Algorithm SHA256`; máy Mac, ứng dụng Terminal: `shasum -a 256 <tên file>`).
 
 | Tệp | SHA-256 |
 |---|---|
