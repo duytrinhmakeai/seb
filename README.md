@@ -159,7 +159,7 @@ Công cụ của bộ Full:
 | `MakeAISEB-1.0.3.0-x86.msi` | `1e7affac06b434897f320411adfc7267e51f4c5058c1ec0da9a070059b5c7586` |
 | `MakeAISEB-1.0.3.0-x86-Full-setup.zip` | `1de8d13c3269426586675ad1f3b03f14d42ea4e1ce6853694890e85fc356e859` |
 | `MakeAISEB-1.0.3.0-x86-Full.msi` | `97995c5bddfae80075c21d927d9659f258140992a1c1f44646eac167f50b55fa` |
-| `MakeAISEB-1.0.3-mac.dmg` | `1fdcd27bc3307aaa25d2194cf3491988dc14445a2eb111c1e97c3724ec00c973` |
+| `MakeAISEB-1.0.3-mac.dmg` | `73334dfaf75bd72aeaa238468ffbab1c0ce3492c9b6a7a41d4352a5202be17ff` |
 
 ## Bộ nhận diện
 
