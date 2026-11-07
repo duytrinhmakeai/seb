@@ -14,6 +14,7 @@
 <p align="center">
   <a href="https://github.com/duytrinhmakeai/seb/releases/latest"><img alt="Phiên bản" src="https://img.shields.io/github/v/release/duytrinhmakeai/seb?label=phi%C3%AAn%20b%E1%BA%A3n&color=1a8cff"></a>
   <img alt="Windows 10/11 64-bit, Windows 10 32-bit" src="https://img.shields.io/badge/Windows-10%20%7C%2011%20(64--bit)%20%C2%B7%2010%20(32--bit)-0a6cd6">
+  <img alt="macOS 10.15+" src="https://img.shields.io/badge/macOS-10.15%2B%20(th%E1%BB%AD%20nghi%E1%BB%87m)-555555">
   <a href="https://github.com/duytrinhmakeai/seb/releases"><img alt="Lượt tải" src="https://img.shields.io/github/downloads/duytrinhmakeai/seb/total?label=l%C6%B0%E1%BB%A3t%20t%E1%BA%A3i&color=22a6f2"></a>
 </p>
 
@@ -51,12 +52,16 @@ Xem loại máy: **Settings** → **System** → **About** → **System type** (
 | **MakeAI SEB (x86)** | Máy thi chạy Windows 10 32-bit | [setup.zip (174 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86-setup.zip) · [.msi (175 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86.msi) |
 | **MakeAI SEB Full (x86)** | Giáo viên, kỹ thuật viên dùng máy 32-bit | [setup.zip (175 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86-Full-setup.zip) · [.msi (176 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86-Full.msi) |
 
+**Máy Mac** (thử nghiệm, bản chưa ký số): [MakeAISEB-1.0.3-mac.dmg (38 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3-mac.dmg) · macOS 10.15 trở lên, máy Intel và Apple Silicon (M1/M2/M3…).
+Mở file .dmg, kéo **MakeAI SEB** vào **Applications**. Lần đầu mở: nếu macOS báo không kiểm tra được nhà phát triển, vào **System Settings** → **Privacy & Security** → **Open Anyway**. Cấp quyền **Accessibility**, **Screen Recording**, **Camera** và **Full Disk Access** khi được hỏi. Hướng dẫn chi tiết có trong file `HUONG-DAN-CAI-DAT.txt` bên trong .dmg.
+
 Chỉ cần tải **một** trong hai dạng: `.msi` (chạy trực tiếp) hoặc `setup.zip` (giải nén ra được file `.msi`).
 [Thay đổi trong phiên bản](https://github.com/duytrinhmakeai/seb/releases/tag/v1.0.3) ·
 [SHA256SUMS.txt](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/SHA256SUMS.txt)
 
 ### Yêu cầu máy tính
 
+- Máy Mac: macOS 10.15 trở lên (bản thử nghiệm, xem mục tải ở trên).
 - Windows 10 phiên bản 1903 trở lên hoặc Windows 11, 64-bit (bộ cài x64); hoặc Windows 10 phiên bản 1903 trở lên, 32-bit (bộ cài x86).
 - Microsoft Visual C++ Redistributable 2015–2022 đúng loại máy, nếu máy chưa có thì tải và cài trước:
   [bản x64](https://aka.ms/vs/17/release/vc_redist.x64.exe) cho máy 64-bit · [bản x86](https://aka.ms/vs/17/release/vc_redist.x86.exe) cho máy 32-bit.
@@ -154,6 +159,7 @@ Công cụ của bộ Full:
 | `MakeAISEB-1.0.3.0-x86.msi` | `1e7affac06b434897f320411adfc7267e51f4c5058c1ec0da9a070059b5c7586` |
 | `MakeAISEB-1.0.3.0-x86-Full-setup.zip` | `1de8d13c3269426586675ad1f3b03f14d42ea4e1ce6853694890e85fc356e859` |
 | `MakeAISEB-1.0.3.0-x86-Full.msi` | `97995c5bddfae80075c21d927d9659f258140992a1c1f44646eac167f50b55fa` |
+| `MakeAISEB-1.0.3-mac.dmg` | `ef7c71ab99f6becf6f2507bffc80dda4af64dfff95beadde4dc90de6cd3bb6bc` |
 
 ## Bộ nhận diện
 
