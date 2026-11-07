@@ -52,8 +52,8 @@ Xem loại máy: **Settings** → **System** → **About** → **System type** (
 | **MakeAI SEB (x86)** | Máy thi chạy Windows 10 32-bit | [setup.zip (174 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86-setup.zip) · [.msi (175 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86.msi) |
 | **MakeAI SEB Full (x86)** | Giáo viên, kỹ thuật viên dùng máy 32-bit | [setup.zip (175 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86-Full-setup.zip) · [.msi (176 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3.0-x86-Full.msi) |
 
-**Máy Mac** (thử nghiệm, bản chưa ký số): [MakeAISEB-1.0.3-mac.dmg (38 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3-mac.dmg) · macOS 10.15 trở lên, máy Intel và Apple Silicon (M1/M2/M3…).
-Mở file .dmg, kéo **MakeAI SEB** vào **Applications**. Lần đầu mở: nếu macOS báo không kiểm tra được nhà phát triển, vào **System Settings** → **Privacy & Security** → **Open Anyway**. Cấp quyền **Accessibility**, **Screen Recording**, **Camera** và **Full Disk Access** khi được hỏi. Hướng dẫn chi tiết có trong file `HUONG-DAN-CAI-DAT.txt` bên trong .dmg.
+**Máy Mac** (thử nghiệm; đã ký số và được Apple công chứng): [MakeAISEB-1.0.3-mac.dmg (38 MB)](https://github.com/duytrinhmakeai/seb/releases/download/v1.0.3/MakeAISEB-1.0.3-mac.dmg) · macOS 10.15 trở lên, máy Intel và Apple Silicon (M1/M2/M3…).
+Mở file .dmg, kéo **MakeAI SEB** vào **Applications**. Cấp quyền **Accessibility**, **Screen Recording**, **Camera** và **Full Disk Access** khi được hỏi. Hướng dẫn chi tiết có trong file `HUONG-DAN-CAI-DAT.txt` bên trong .dmg.
 
 Chỉ cần tải **một** trong hai dạng: `.msi` (chạy trực tiếp) hoặc `setup.zip` (giải nén ra được file `.msi`).
 [Thay đổi trong phiên bản](https://github.com/duytrinhmakeai/seb/releases/tag/v1.0.3) ·
@@ -159,7 +159,7 @@ Công cụ của bộ Full:
 | `MakeAISEB-1.0.3.0-x86.msi` | `1e7affac06b434897f320411adfc7267e51f4c5058c1ec0da9a070059b5c7586` |
 | `MakeAISEB-1.0.3.0-x86-Full-setup.zip` | `1de8d13c3269426586675ad1f3b03f14d42ea4e1ce6853694890e85fc356e859` |
 | `MakeAISEB-1.0.3.0-x86-Full.msi` | `97995c5bddfae80075c21d927d9659f258140992a1c1f44646eac167f50b55fa` |
-| `MakeAISEB-1.0.3-mac.dmg` | `ef7c71ab99f6becf6f2507bffc80dda4af64dfff95beadde4dc90de6cd3bb6bc` |
+| `MakeAISEB-1.0.3-mac.dmg` | `1fdcd27bc3307aaa25d2194cf3491988dc14445a2eb111c1e97c3724ec00c973` |
 
 ## Bộ nhận diện
 
